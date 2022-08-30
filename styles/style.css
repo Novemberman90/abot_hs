@@ -1,0 +1,133 @@
+:root {
+    --background-ukr: #fce100;
+    --background-blueblue: #0078d7;
+    --background-img: #f5f2fe;
+    --color-white: white;
+    --color-black: black;
+  }
+  .top-position {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+  }
+  
+  .container-main {
+    text-align: center;
+    margin: 70px auto;
+  }
+  .Hello {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .Full-Name {
+    font-size: 36px;
+  }
+  
+  .links {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Contact-Me,
+  .About-me {
+    text-decoration: none;
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+    padding: 20px;
+    transition: ease-in-out 200ms;
+  }
+  
+  .Contact-Me {
+    margin-right: 20px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+  .Contact-Me:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  .About-me {
+    color: var(--color-black);
+  }
+  .About-me:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+  
+  .yoga-block {
+    margin-top: 100px;
+  }
+  
+  .yoga {
+    position: relative;
+    width: 550px;
+    height: auto;
+    background-color: var(--background-img);
+  }
+  
+  .btn-yoga {
+    background-color: var(--background-ukr);
+    border: solid 1px var(--color-black);
+  }
+  
+  .btn-weather {
+    position: relative;
+    background-color: var(--background-blueblue);
+    border: solid 1px var(--color-black);
+    color: var(--color-white);
+  }
+  
+  .wheather-img {
+    background-color: var(--background-img);
+  }
+  
+  .wheather-logo {
+    width: 100%;
+    height: auto;
+  }
+  .coffe-img {
+    background-color: var(--background-img);
+  }
+  
+  .coffee-logo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .btn-coffee {
+    background-color: var(--background-ukr);
+    border: solid 1px var(--color-black);
+  }
+
+  @media (max-width:576px) {
+    .yoga, 
+    .coffe-img,
+    .wheather-logo{
+        margin-bottom: 20px;
+    }
+
+    .wheather-img {
+        margin-top: 20px;
+        
+    }
+
+    p {
+        text-align: center;
+        
+    }
+    
+    .name-app {
+        text-align: center;
+    }
+   
+    .project-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+      }
+  }
